@@ -538,10 +538,8 @@ Test your understanding before moving on:
 
 ### 1. What files should you edit when adding content?
 
-a) Files in `_site/` directory  
-b) Files in `src/` directory ✅  
-c) Files in `node_modules/`  
-d) The `.eleventy.js` file
+a) Files in `_site/` directory b) Files in `src/` directory ✅ c) Files in
+`node_modules/` d) The `.eleventy.js` file
 
 **Explanation:** Always edit files in `src/`. The `_site/` folder is generated
 by Eleventy and gets overwritten on every build.
@@ -550,10 +548,8 @@ by Eleventy and gets overwritten on every build.
 
 ### 2. What is front matter?
 
-a) The header navigation of your site  
-b) YAML metadata at the top of Markdown files ✅  
-c) The first paragraph of content  
-d) CSS styles for headings
+a) The header navigation of your site b) YAML metadata at the top of Markdown
+files ✅ c) The first paragraph of content d) CSS styles for headings
 
 **Explanation:** Front matter is YAML data between `---` delimiters that
 provides information like layout, title, and other metadata.
@@ -562,10 +558,8 @@ provides information like layout, title, and other metadata.
 
 ### 3. What does the `npm start` command do?
 
-a) Installs dependencies  
-b) Runs development server with live reload ✅  
-c) Deploys to GitHub Pages  
-d) Formats your code
+a) Installs dependencies b) Runs development server with live reload ✅ c)
+Deploys to GitHub Pages d) Formats your code
 
 **Explanation:** `npm start` runs Eleventy in development mode, watches for
 changes, and provides live reload at <http://localhost:8080>.
@@ -574,10 +568,8 @@ changes, and provides live reload at <http://localhost:8080>.
 
 ### 4. Before adding new CSS, you should:
 
-a) Just create a new stylesheet  
-b) Check if similar styles already exist ✅  
-c) Delete all existing CSS  
-d) Ask permission from instructor
+a) Just create a new stylesheet b) Check if similar styles already exist ✅ c)
+Delete all existing CSS d) Ask permission from instructor
 
 **Explanation:** Following DRY principles, always check existing CSS first.
 Reuse what exists, extend if needed, only create new when necessary.
@@ -586,10 +578,8 @@ Reuse what exists, extend if needed, only create new when necessary.
 
 ### 5. What happens to files in `_site/` when you run `npm run build`?
 
-a) They are backed up  
-b) They are committed to Git  
-c) They are completely regenerated ✅  
-d) Nothing happens to them
+a) They are backed up b) They are committed to Git c) They are completely
+regenerated ✅ d) Nothing happens to them
 
 **Explanation:** The `_site/` directory is deleted and rebuilt on every build.
 Never edit files there directly—edit in `src/` instead.

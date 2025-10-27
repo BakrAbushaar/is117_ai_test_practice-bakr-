@@ -1,82 +1,165 @@
-# 🚀 AI-Assisted Web Development: Build Like a Pro
+# 🚀 AI-Assisted Web Development: Quality-First Learning Platform
 
-> **Learn to build production-ready websites using AI coding assistants while
-> maintaining professional code quality standards.**
+> **Self-paced course teaching production-ready web development using AI coding
+> assistants with automated quality gates.**
 
 [![Deploy Status](https://github.com/kaw393939/is117_ai_test_practice/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/kaw393939/is117_ai_test_practice/actions)
 [![Live Site](https://img.shields.io/badge/demo-live-success)](https://kaw393939.github.io/is117_ai_test_practice/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
-## 🎯 What You'll Learn (In 40 Minutes)
+## 🎯 What You'll Learn
 
-This is a **hands-on course** where you'll recreate this entire project using AI
-coding assistants. You'll learn:
+This **self-paced learning platform** teaches you to build production-ready
+websites using AI coding assistants while maintaining professional code quality
+standards.
 
-✅ How to prompt AI to build quality code ✅ Automated quality gates that catch
-errors ✅ Modern web development workflow ✅ Deploy to production automatically
+**Core Skills:**
 
-**No prior experience required** - just follow the lessons in order.
+- ✅ AI-assisted development with quality assurance
+- ✅ Automated quality gates that catch errors before deployment
+- ✅ Modern CI/CD workflow (push code → auto-test → auto-deploy)
+- ✅ DRY (Don't Repeat Yourself) principles enforced by tooling
+- ✅ Professional debugging and troubleshooting
+
+**Time Commitment:**
+
+- Reading: ~2 hours
+- Hands-on practice: ~4-6 hours
+- Total: 6-8 hours to full project completion
+
+**Prerequisites:** None! Basic HTML/CSS helpful but not required.
+
+---
+
+## 👥 Who This Is For
+
+### 🎓 Students (Self-Paced Learning)
+
+Learn at your own pace with:
+
+- 10 bite-sized lessons (10-40 min each)
+- Copy-paste AI prompts for every step
+- Built-in knowledge checks to verify understanding
+- Comprehensive troubleshooting guide
+- Final project for your portfolio
+
+### 👨‍🏫 Instructors (Classroom Integration)
+
+Use as curriculum with:
+
+- **[Instructor Guide](docs/instructor-guide.md)** - Teaching strategies,
+  activities, assessments
+- Suggested classroom activities and discussion prompts
+- Flexible integration (supplement, flipped classroom, or workshop)
+- Assessment rubrics and grading guidance
+- No instructor interaction required (fully self-serve)
+
+### 💼 Professionals (Skill Upgrading)
+
+Modernize your workflow:
+
+- Learn industry-standard CI/CD practices
+- Integrate AI assistants into your development
+- Automate quality checks you do manually today
+- See real-world examples, not toy projects
 
 ---
 
 ## 🎓 Course Structure
 
-### **Part 1: Understanding** (15 minutes)
+### **Part 1: Foundation** (~2 hours)
 
-1. [**What Is This Project?**](docs/lessons/01-what-is-this.md) - 3 min _See
-   what we're building and why it matters_
+1. [**What Is This Project?**](docs/lessons/01-what-is-this.md) - 3 min  
+   _See what we're building and why it matters_
 
-2. [**Why Quality Gates?**](docs/lessons/02-why-quality-gates.md) - 3 min _The
-   problem with AI-generated code and how to fix it_
+2. [**Why Quality Gates?**](docs/lessons/02-why-quality-gates.md) - 3 min  
+   _The problem with AI-generated code and how to fix it_
 
 3. [**Prompt Engineering Basics**](docs/lessons/03-prompt-engineering-basics.md) -
-   5 min _How to talk to AI coding assistants effectively_
+   5 min  
+   _How to talk to AI coding assistants effectively_
 
-4. [**Setup Your Environment**](docs/lessons/04-setup-your-environment.md) - 5
-   min _Install what you need to get started_
+4. [**Setup Your Environment**](docs/lessons/04-setup-your-environment.md) -
+   30-40 min  
+   _Install tools and get the project running locally_
 
-### **Part 2: Building** (20 minutes)
+### **Part 2: Building with Quality** (~3 hours)
 
-5. [**Build with Eleventy**](docs/lessons/05-build-with-eleventy.md) - 4 min
-   _Create a static website with templates_
+5. [**Build with Eleventy**](docs/lessons/05-build-with-eleventy.md) - 17 min  
+   _Create a static website with templates and layouts_
 
-6. [**ESLint & Prettier**](docs/lessons/06-eslint-prettier.md) - 4 min
-   _Automatic code quality and formatting_
+6. [**ESLint & Prettier**](docs/lessons/06-eslint-prettier.md) - 11 min  
+   _Automatic code quality checking and formatting_
 
-7. [**Pre-commit Hooks**](docs/lessons/07-pre-commit-hooks.md) - 3 min _Stop bad
-   code before it's committed_
+7. [**Pre-commit Hooks**](docs/lessons/07-pre-commit-hooks.md) - 11 min  
+   _Stop bad code before it's committed to Git_
 
-8. [**GitHub Actions**](docs/lessons/08-github-actions.md) - 5 min _Automate
-   testing and deployment_
+8. [**GitHub Actions CI/CD**](docs/lessons/08-github-actions.md) - 13 min  
+   _Automate testing and deployment on every push_
 
-9. [**Lighthouse CI**](docs/lessons/09-lighthouse-ci.md) - 4 min _Ensure your
-   site is fast and accessible_
+9. [**Lighthouse CI**](docs/lessons/09-lighthouse-ci.md) - 11 min  
+   _Ensure your site is fast, accessible, and SEO-friendly_
 
-### **Part 3: When Things Break** (5 minutes)
+### **Part 3: Professional Skills** (~1 hour)
 
-10. [**Troubleshooting Guide**](docs/lessons/10-troubleshooting.md) - 5 min
-    _Common issues and how to fix them_
+10. [**Troubleshooting & Debugging**](docs/lessons/10-troubleshooting.md) - 19
+    min  
+    _Common issues, debugging strategies, and working without automation_
 
 ---
 
-## 🎮 Quick Start (For the Impatient)
+## 🚀 Quick Start Options
+
+### Option 1: Fork and Follow (Recommended for Learning)
 
 ```bash
-# 1. Clone and install
-git clone <your-fork>
-cd 117_site
+# 1. Fork this repository on GitHub (top right button)
+# 2. Clone YOUR fork
+git clone https://github.com/YOUR-USERNAME/is117_ai_test_practice.git
+cd is117_ai_test_practice
+
+# 3. Install dependencies
 npm install
 
-# 2. Start developing
+# 4. Start developing
 npm start
 
-# 3. Deploy to GitHub Pages
-git push
+# 5. Visit http://localhost:8080 in your browser
 ```
 
-**Want to understand what's happening?** Start with
-[Lesson 1](docs/lessons/01-what-is-this.md) 👆
+**Then:** Follow [Lesson 1](docs/lessons/01-what-is-this.md) to understand what
+you just set up!
+
+---
+
+### Option 2: Read First, Build Later (Recommended for Instructors)
+
+1. Browse the [lessons](docs/lessons/) to understand the flow
+2. Check the [Instructor Guide](docs/instructor-guide.md) for teaching
+   strategies
+3. Review suggested activities and assessments
+4. Then set up your own fork for demonstration
+
+---
+
+## 👨‍🏫 For Instructors
+
+**New to teaching this content?** Start here:
+
+📖 **[Instructor Guide](docs/instructor-guide.md)** - Complete teaching resource
+
+**What's included:**
+
+- ✅ Suggested classroom activities (with time estimates)
+- ✅ Assessment rubrics and grading guidance
+- ✅ Integration options (flipped classroom, workshop, self-paced)
+- ✅ Troubleshooting tips for common student issues
+- ✅ External resources and community links
+
+**No prep required** - Content is fully self-serve. Your role is to provide
+context, troubleshoot, and celebrate wins!
 
 ---
 
@@ -136,6 +219,57 @@ By the end of this course, you'll be able to:
 - ❌ Prior coding experience
 - ❌ Deep understanding of web development
 - ❌ To memorize anything (we have copy-paste prompts)
+
+---
+
+## 🌐 External Resources & Learning Supplements
+
+### Official Documentation
+
+**Primary Technologies:**
+
+- [Eleventy Docs](https://www.11ty.dev/docs/) - Static site generator we use
+- [Node.js Guide](https://nodejs.org/en/docs/) - JavaScript runtime
+- [GitHub Actions](https://docs.github.com/en/actions) - CI/CD platform
+
+**Quality Tools:**
+
+- [ESLint Rules](https://eslint.org/docs/rules/) - JavaScript linter
+- [Prettier Options](https://prettier.io/docs/en/options.html) - Code formatter
+- [Stylelint](https://stylelint.io/) - CSS linter
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/) -
+  Performance/accessibility testing
+
+### Video Tutorials (Supplemental)
+
+- [Eleventy Crash Course](https://www.youtube.com/results?search_query=eleventy+crash+course) -
+  YouTube
+- [Git & GitHub for Beginners](https://www.youtube.com/results?search_query=git+github+for+beginners) -
+  YouTube
+- [CI/CD Explained Simply](https://www.youtube.com/results?search_query=ci+cd+explained) -
+  YouTube
+
+### Interactive Learning
+
+- [Learn Git Branching](https://learngitbranching.js.org/) - Visual Git tutorial
+- [GitHub Skills](https://skills.github.com/) - Hands-on GitHub practice
+- [MDN Web Docs](https://developer.mozilla.org/) - HTML/CSS/JS reference
+
+### Communities
+
+- [Eleventy Discord](https://www.11ty.dev/blog/discord/) - Ask questions about
+  11ty
+- [Dev.to](https://dev.to/) - Share your projects and learn from others
+- [Stack Overflow](https://stackoverflow.com/) - Technical Q&A
+
+### Related Courses
+
+- [freeCodeCamp](https://www.freecodecamp.org/) - Free web development
+  curriculum
+- [The Odin Project](https://www.theodinproject.com/) - Full-stack development
+  path
+- [MDN Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn) -
+  Mozilla's web dev guide
 
 ---
 

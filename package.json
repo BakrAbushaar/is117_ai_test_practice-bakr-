@@ -12,10 +12,13 @@
     "lint:md": "markdownlint \"**/*.md\" --ignore node_modules --ignore _site",
     "lint:format": "prettier --check \"**/*.{js,css,md,html,json}\" --ignore-path .gitignore",
     "lint:duplication": "jscpd src/",
+    "lint:links": "npm run lint:links:md && npm run lint:links:html",
+    "lint:links:md": "markdown-link-check docs/**/*.md README.md --config .markdown-link-check.json --quiet",
+    "lint:links:html": "npm run build && linkinator _site --recurse --skip '^(?!http://localhost|https://kaw393939.github.io)' --markdown",
     "format": "prettier --write \"**/*.{js,css,md,html,json}\" --ignore-path .gitignore",
     "lighthouse": "lhci autorun",
     "prepare": "husky install",
-    "test": "npm run lint && npm run build"
+    "test": "npm run lint && npm run build && npm run lint:links"
   },
   "keywords": [
     "static-site",
@@ -32,7 +35,9 @@
     "eslint-config-prettier": "^9.1.0",
     "husky": "^8.0.3",
     "jscpd": "^4.0.5",
+    "linkinator": "^7.3.0",
     "lint-staged": "^15.2.0",
+    "markdown-link-check": "^3.14.1",
     "markdownlint-cli": "^0.39.0",
     "prettier": "^3.2.5",
     "stylelint": "^16.2.1",
