@@ -196,19 +196,8 @@ this for GitHub Pages?
 
 ```
 
-I pushed my Eleventy site to GitHub at:
-<https://github.com/[YOUR_USERNAME]/[YOUR_REPO_NAME]>
-
-GitHub Actions is configured to deploy the site.
-
-How do I:
-
-1. Enable GitHub Pages for this repository
-2. Set the source to "GitHub Actions"
-3. Find my deployed site URL
-4. Verify the deployment worked
-
-Provide step-by-step instructions with screenshots locations.
+7. Navigate to your new repository on GitHub (the URL will be shown after
+   creation, typically `https://github.com/YOUR_USERNAME/YOUR_REPO_NAME`)
 
 ```
 

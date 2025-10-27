@@ -562,6 +562,5 @@ This course teaches students skills they'll use their entire careers:
 
 ---
 
-**Last Updated:** October 27, 2025  
-**Version:** 2.0 (Self-Paced Edition)  
+**Last Updated:** October 27, 2025 **Version:** 2.0 (Self-Paced Edition)
 **Maintainer:** [Your name/institution]

@@ -71,42 +71,39 @@ Modernize your workflow:
 
 ### **Part 1: Foundation** (~2 hours)
 
-1. [**What Is This Project?**](docs/lessons/01-what-is-this.md) - 3 min  
-   _See what we're building and why it matters_
+1. [**What Is This Project?**](docs/lessons/01-what-is-this.md) - 3 min _See
+   what we're building and why it matters_
 
-2. [**Why Quality Gates?**](docs/lessons/02-why-quality-gates.md) - 3 min  
-   _The problem with AI-generated code and how to fix it_
+2. [**Why Quality Gates?**](docs/lessons/02-why-quality-gates.md) - 3 min _The
+   problem with AI-generated code and how to fix it_
 
 3. [**Prompt Engineering Basics**](docs/lessons/03-prompt-engineering-basics.md) -
-   5 min  
-   _How to talk to AI coding assistants effectively_
+   5 min _How to talk to AI coding assistants effectively_
 
 4. [**Setup Your Environment**](docs/lessons/04-setup-your-environment.md) -
-   30-40 min  
-   _Install tools and get the project running locally_
+   30-40 min _Install tools and get the project running locally_
 
 ### **Part 2: Building with Quality** (~3 hours)
 
-5. [**Build with Eleventy**](docs/lessons/05-build-with-eleventy.md) - 17 min  
+5. [**Build with Eleventy**](docs/lessons/05-build-with-eleventy.md) - 17 min
    _Create a static website with templates and layouts_
 
-6. [**ESLint & Prettier**](docs/lessons/06-eslint-prettier.md) - 11 min  
+6. [**ESLint & Prettier**](docs/lessons/06-eslint-prettier.md) - 11 min
    _Automatic code quality checking and formatting_
 
-7. [**Pre-commit Hooks**](docs/lessons/07-pre-commit-hooks.md) - 11 min  
-   _Stop bad code before it's committed to Git_
+7. [**Pre-commit Hooks**](docs/lessons/07-pre-commit-hooks.md) - 11 min _Stop
+   bad code before it's committed to Git_
 
-8. [**GitHub Actions CI/CD**](docs/lessons/08-github-actions.md) - 13 min  
+8. [**GitHub Actions CI/CD**](docs/lessons/08-github-actions.md) - 13 min
    _Automate testing and deployment on every push_
 
-9. [**Lighthouse CI**](docs/lessons/09-lighthouse-ci.md) - 11 min  
-   _Ensure your site is fast, accessible, and SEO-friendly_
+9. [**Lighthouse CI**](docs/lessons/09-lighthouse-ci.md) - 11 min _Ensure your
+   site is fast, accessible, and SEO-friendly_
 
 ### **Part 3: Professional Skills** (~1 hour)
 
 10. [**Troubleshooting & Debugging**](docs/lessons/10-troubleshooting.md) - 19
-    min  
-    _Common issues, debugging strategies, and working without automation_
+    min _Common issues, debugging strategies, and working without automation_
 
 ---
 
@@ -409,7 +406,7 @@ MIT License - Use this for learning, teaching, or building your own projects.
 - 🐛 **Found a bug?**
   [Open an issue](https://github.com/kaw393939/is117_ai_test_practice/issues)
 - 💡 **Have a question?**
-  [Start a discussion](https://github.com/kaw393939/is117_ai_test_practice/discussions)
+  [Open an issue](https://github.com/kaw393939/is117_ai_test_practice/issues)
 - 🤖 **AI not working?** Check the
   [Troubleshooting Guide](docs/lessons/10-troubleshooting.md)
 
