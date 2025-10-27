@@ -52,11 +52,11 @@ npm install  # Already completed ✓
 npm start
 ```
 
-This will start the dev server at http://localhost:8080 with live reload.
+This will start the dev server at <http://localhost:8080> with live reload.
 
 ### 3. View Your Site
 
-Open your browser to http://localhost:8080
+Open your browser to <http://localhost:8080>
 
 ### 4. Make Changes
 

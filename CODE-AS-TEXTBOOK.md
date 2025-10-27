@@ -1366,7 +1366,8 @@ git commit --allow-empty -m "Test commit"
 **AI Prompt:**
 
 > "My pre-commit hooks aren't running. Here's my .husky/pre-commit file: [paste
-> content]. What's wrong?"
+>
+> > content]. What's wrong?"
 
 ### Challenge 2: ESLint and Prettier Conflicts
 
@@ -1456,8 +1457,9 @@ npm test
 
 **AI Prompt:**
 
-> "My build passes locally but fails in GitHub Actions with this error: [paste
-> error]. My workflow file: [paste]. What's different between local and CI?"
+> "My build passes locally but fails in GitHub Actions with this error: [paste >
+>
+> > error]. My workflow file: [paste]. What's different between local and CI?"
 
 ### Challenge 5: Lighthouse Scores Below 90
 
@@ -1586,29 +1588,23 @@ After completing this project, you should be able to:
 
 ### Project Rubric
 
-| Category                   | Criteria                                   | Points |
-| -------------------------- | ------------------------------------------ | ------ |
-| **Project Setup (15 pts)** |
-|                            | Correct package.json with all dependencies | 5      |
-|                            | All configuration files present and valid  | 5      |
-|                            | Project structure follows conventions      | 5      |
-| **Code Quality (30 pts)**  |
-|                            | All JavaScript passes ESLint               | 10     |
-|                            | All CSS passes Stylelint                   | 10     |
-|                            | All files formatted with Prettier          | 10     |
-| **Functionality (25 pts)** |
-|                            | Site builds successfully                   | 10     |
-|                            | All pages load and display correctly       | 10     |
-|                            | Navigation works, links are valid          | 5      |
-| **Quality Gates (20 pts)** |
-|                            | Pre-commit hooks working                   | 5      |
-|                            | GitHub Actions workflow runs               | 10     |
-|                            | Lighthouse scores 90+ in all categories    | 5      |
-| **Documentation (10 pts)** |
-|                            | README explains setup and usage            | 5      |
-|                            | Code has appropriate comments              | 5      |
-
-**Total: 100 points**
+| Category                   | Criteria                                   | Points         |
+| -------------------------- | ------------------------------------------ | -------------- |
+| **Project Setup (15 pts)** | Correct package.json with all dependencies | 5              |
+|                            | All configuration files present and valid  | 5              |
+|                            | Project structure follows conventions      | 5              |
+| **Code Quality (30 pts)**  | All JavaScript passes ESLint               | 10             |
+|                            | All CSS passes Stylelint                   | 10             |
+|                            | All files formatted with Prettier          | 10             |
+| **Functionality (25 pts)** | Site builds successfully                   | 10             |
+|                            | All pages load and display correctly       | 10             |
+|                            | Navigation works, links are valid          | 5              |
+| **Quality Gates (20 pts)** | Pre-commit hooks working                   | 5              |
+|                            | GitHub Actions workflow runs               | 10             |
+|                            | Lighthouse scores 90+ in all categories    | 5              |
+| **Documentation (10 pts)** | README explains setup and usage            | 5              |
+|                            | Code has appropriate comments              | 5              |
+| **Total**                  |                                            | **100 points** |
 
 ### Reflection Questions
 
